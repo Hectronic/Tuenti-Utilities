@@ -1,0 +1,11 @@
+Por ahora, sólo se pueden descargar fotos y actualizar el estado. Próximamente nuevas funcionalidades e interfaz gráfica.
+
+Para ejecutar:
+
+python tuenti.py email@provider.com password status "mensaje a actualizar"
+
+python tuenti.py email@provider.com password photos numerodefotosabajar
+
+o simplemente python tuenti.py  para que te vaya pidiendo los datos
+
+Aún estoy decidiendo por que licencia utilizar (GPL3, BSD, Apache, etc..) así que por ahora todos los derechos reservados
