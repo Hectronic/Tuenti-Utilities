@@ -4,7 +4,6 @@
 
 import pygtk
 import gtk
-import Login
 
 
 class LoginScreen():
@@ -50,7 +49,7 @@ class LoginScreen():
         email = gtk.Entry()
         email.set_max_length(50)
         #email.connect("activate", self.enter_callback, email)
-        email.set_text("hectronic0@gmail.com")
+        email.set_text("")
         #entry.insert_text(" world", len(entry.get_text()))
         email.select_region(0, len(email.get_text()))
         vbox.pack_start(email, True, True, 0)
@@ -59,7 +58,7 @@ class LoginScreen():
         password = gtk.Entry()
         password.set_max_length(50)
         password.connect("activate", self.enter_callback, password)
-        password.set_text("htrhtr")
+        password.set_text("")
         password.select_region(0, len(password.get_text()))
         vbox.pack_start(password, True, True, 0)
         password.show()

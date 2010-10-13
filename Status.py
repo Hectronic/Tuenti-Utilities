@@ -5,7 +5,6 @@
 
 import pygtk
 import gtk
-import Login
 
 
 class changeStatusScreen():
